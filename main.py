@@ -51,7 +51,7 @@ if __name__ == '__main__':
     
     #leaderBoard drink
     app.add_handler(CommandHandler("addcuite", add_cuite))
-    app.add_handler(CommandHandler("showScoreCuite", drinks_leaderboard))
+    app.add_handler(CommandHandler("showcuite", drinks_leaderboard))
 
 
     # Démarrer le bot en mode polling
